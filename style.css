@@ -118,22 +118,22 @@ header.major {
 }
 
 .major2 {
-    width: 570px;
+    width: 450px;
     display: inline-block;
 }
 
 .menu {
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    /*width: 30px;*/
+    /*height: 30px;*/
     float: left;
     margin: 0 auto;
 }
 
 .profile {
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    /*width: 30px;*/
+    /*height: 30px;*/
     float: right;
     margin: 0 auto;
 }
@@ -543,23 +543,41 @@ left: 20px;
     }
 
 
+    header.major {
+        padding-top: 50px;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
 
-    /*.onehover {*/
-        /*background-color: #fb7066;*/
-        /*width: 180px;*/
-        /*height: 180px;*/
-        /*position: relative;*/
-        /*color: white;*/
-        /*opacity: 0;*/
-        /*cursor: pointer;*/
-        /*transition: all 0.2s linear;*/
+    }
 
-    /*}*/
+    .major2 {
+        width: 570px;
+        display: inline-block;
+    }
 
-    /*.onehover:hover {*/
-        /*opacity: 1;*/
-        /*transition: all 0.2s linear;*/
-    /*}*/
+    .menu {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        float: left;
+        margin: 0 auto;
+    }
+
+    .profile {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        float: right;
+        margin: 0 auto;
+    }
+
+    .logo {
+        height: auto;
+        display: inline-block;
+    }
 
     .onehover {
         background-color: #fb7066;
