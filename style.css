@@ -518,6 +518,7 @@ left: 20px;
         width: 180px;
         height: 180px;
         position: absolute;
+        min-height: 140px;
     }
     .one {
         left: 0px;
@@ -556,8 +557,8 @@ left: 20px;
     .five {
         left: 190px;
         top: 240px;
-        /*width: 370px;*/
-        /*height: 140px;*/
+        width: 370px;
+        height: 140px;
         position: absolute;
         background-image: url('images/box-05.jpg');
         background-size: contain;
@@ -585,12 +586,7 @@ left: 20px;
         background-repeat: no-repeat;
     }
 
-    .five {
-        width: 370px;
-        height: 140px;
-        position: absolute;
 
-    }
 
     .six {
         height: 140px;
@@ -611,15 +607,16 @@ left: 20px;
         padding-top: 50px;
         display: inline-block;
         text-align: center;
-        width: 570px;
+
         height: auto;
         margin: 0 auto;
 
     }
 
     .major2 {
-        width: 570px;
+        width: 560px;
         display: inline-block;
+
     }
 
     .menu {
@@ -644,7 +641,7 @@ left: 20px;
     }
 
     .container {
-        width: 570px;
+        width: 560px;
         height: 680px;
         margin: 0 auto;
         display: block;
