@@ -108,7 +108,7 @@ textarea {
 }
 
 header.major {
-    padding-top: 50px;
+    padding-top: 20px;
     display: inline-block;
     text-align: center;
     width: 100%;
@@ -148,7 +148,7 @@ header.major {
     height: 680px;
     margin: 0 auto;
     display: block;
-    padding-top: 50px;
+    padding-top: 30px;
     position: relative;
 }
 
