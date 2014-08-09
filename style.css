@@ -171,9 +171,9 @@ header.major{
     position: absolute;
     left: 0px;
     top: 50px;
-    background-image: url(images/box-01.jpg);
+    background-image: url(./images/box-01.jpg);
     background-size: cover;
-
+    background-repeat: no-repeat;
 }
 
 .two {
@@ -539,4 +539,22 @@ header.major{
     padding-left: 20px;
     line-height: 110%;
 
+}
+
+
+
+.profile1 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image: url(profile-dasom.svg);
+}
+
+
+.profile2 {
+    width: 360px;
+    height: 200px;
+    float: right;
+    border-top: 7px solid #f0ece0;
+    padding-top: 10px;
 }
