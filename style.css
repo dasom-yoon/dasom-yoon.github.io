@@ -154,6 +154,7 @@ header.major {
 
 .box {
     width: 100%;
+    height: 300px;
     background-color: gray;
     display: inline-block;
 }
@@ -161,7 +162,7 @@ header.major {
 .one {
     left: 0px;
     top: 50px;
-    background-image: url('/images/box-01.jpg');
+    background-image: url('images/box-01.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -171,7 +172,8 @@ header.major {
     top: 50px;
     background-image: url(images/box-02.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: inherit;
+    background-position: center;
 }
 
 .three {
@@ -180,6 +182,7 @@ header.major {
     background-image: url(images/box-03.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .four {
@@ -188,175 +191,110 @@ header.major {
     background-image: url(images/box-04.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .five {
     left: 190px;
     top: 240px;
-    width: 370px;
-    height: 140px;
+    /*width: 370px;*/
+    /*height: 140px;*/
     background-image: url(images/box-05.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
-.six {
-    left: 0px;
-    top: 430px;
-    height: 140px;
-    background-image: url(images/box-06.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+/*.six {*/
+    /*left: 0px;*/
+    /*top: 430px;*/
+    /*height: 140px;*/
+    /*background-image: url(images/box-06.jpg);*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+/*}*/
 
 .seven {
     left: 190px;
     top: 390px;
-    height: 160px;
+    /*height: 160px;*/
     background-image: url(images/box-07.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 .eight {
     left: 380px;
     top: 390px;
-    height: 160px;
+    /*height: 160px;*/
     background-image: url(images/box-08.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .onehover {
-    background-color: #fb7066;
-    width: 180px;
-    height: 180px;
-    position: relative;
-    color: white;
     opacity: 0;
-    cursor: pointer;
-    transition: all 0.2s linear;
-
 }
 
-.onehover:hover {
-    opacity: 1;
-    transition: all 0.2s linear;
-}
 
 .twohover {
-    background-color: #ff9578;
-    width: 180px;
-    height: 180px;
-    position: relative;
-    color: white;
+
     opacity: 0;
-    cursor: pointer;
-    transition: all 0.2s linear;
 
-}
-
-.twohover:hover {
-    opacity: 1;
-    transition: all 0.2s linear;
 }
 
 .threehover {
-    background-color: #434b5b;
-    width: 180px;
-    height: 180px;
-    position: relative;
-    color: white;
+
     opacity: 0;
-    cursor: pointer;
-    transition: all 0.2s linear;
 
 }
 
-.threehover:hover {
-    opacity: 1;
-    transition: all 0.2s linear;
-}
 
 .fourhover {
-    background-color: #df98d5;
-    width: 180px;
-    height: 180px;
-    position: relative;
-    color: white;
+
     opacity: 0;
-    cursor: pointer;
-    transition: all 0.2s linear;
+
 
 }
 
-.fourhover:hover {
-    opacity: 1;
-    transition: all 0.2s linear;
-}
+
 
 .fivehover {
-    background-color: #e5d7c6;
-    width: 370px;
-    height: 140px;
-    position: relative;
-    color: white;
+
     opacity: 0;
-    cursor: pointer;
-    transition: all 0.2s linear;
 
-}
 
-.fivehover:hover {
-    opacity: 1;
-    transition: all 0.2s linear;
 }
 
 .sevenhover {
-    background-color: #ffd47d;
-    width: 180px;
-    height: 160px;
-    position: relative;
-    color: white;
+
     opacity: 0;
-    cursor: pointer;
-    transition: all 0.2s linear;
 
 }
 
-.sevenhover:hover {
-    opacity: 1;
-    transition: all 0.2s linear;
-}
 
 .eighthover {
-    background-color: #ffbfae;
-    width: 180px;
-    height: 160px;
-    position: relative;
-    color: white;
+
     opacity: 0;
-    cursor: pointer;
-    transition: all 0.2s linear;
 
 }
 
-.eighthover:hover {
-    opacity: 1;
-    transition: all 0.2s linear;
+
+.title {
+position: absolute;
+top: 70px;
+left: 20px;
 }
 
-/*.title {*/
-/*position: absolute;*/
-/*top: 70px;*/
-/*left: 20px;*/
-/*}*/
-
-/*.category {*/
-/*position: absolute;*/
-/*top: 90px;*/
-/*left: 20px;*/
-/*}*/
+.category {
+position: absolute;
+top: 90px;
+left: 20px;
+}
 
 .titlefont {
     font-family: montserrat;
@@ -488,7 +426,7 @@ header.major {
     vertical-align: middle;
 }
 
-.test {
+.text-padding {
     padding-left: 20px;
     line-height: 110%;
 
@@ -539,6 +477,14 @@ header.major {
     color: #565656;
     margin-left: 10px;
 }
+.x-com {
+    display: none;
+}
+
+.x-mobile {
+    display: block;
+}
+
 
 @media only screen and (min-width: 35em) {
 
@@ -595,6 +541,145 @@ header.major {
     .eight {
         height: 160px;
     }
+
+
+
+    /*.onehover {*/
+        /*background-color: #fb7066;*/
+        /*width: 180px;*/
+        /*height: 180px;*/
+        /*position: relative;*/
+        /*color: white;*/
+        /*opacity: 0;*/
+        /*cursor: pointer;*/
+        /*transition: all 0.2s linear;*/
+
+    /*}*/
+
+    /*.onehover:hover {*/
+        /*opacity: 1;*/
+        /*transition: all 0.2s linear;*/
+    /*}*/
+
+    .onehover {
+        background-color: #fb7066;
+        width: 180px;
+        height: 180px;
+        position: relative;
+        color: white;
+        opacity: 0;
+        cursor: pointer;
+        transition: all 0.2s linear;
+
+    }
+
+    .onehover:hover {
+        opacity: 1;
+        transition: all 0.2s linear;
+    }
+
+    .twohover {
+        background-color: #ff9578;
+        width: 180px;
+        height: 180px;
+        position: relative;
+        color: white;
+        opacity: 0;
+        cursor: pointer;
+        transition: all 0.2s linear;
+
+    }
+
+    .twohover:hover {
+        opacity: 1;
+        transition: all 0.2s linear;
+    }
+
+    .threehover {
+        background-color: #434b5b;
+        width: 180px;
+        height: 180px;
+        position: relative;
+        color: white;
+        opacity: 0;
+        cursor: pointer;
+        transition: all 0.2s linear;
+
+    }
+
+    .threehover:hover {
+        opacity: 1;
+        transition: all 0.2s linear;
+    }
+
+    .fourhover {
+        background-color: #df98d5;
+        width: 180px;
+        height: 180px;
+        position: relative;
+        color: white;
+        opacity: 0;
+        cursor: pointer;
+        transition: all 0.2s linear;
+
+    }
+
+    .fourhover:hover {
+        opacity: 1;
+        transition: all 0.2s linear;
+    }
+
+    .fivehover {
+        background-color: #e5d7c6;
+        width: 370px;
+        height: 140px;
+        position: relative;
+        color: white;
+        opacity: 0;
+        cursor: pointer;
+        transition: all 0.2s linear;
+
+    }
+
+    .fivehover:hover {
+        opacity: 1;
+        transition: all 0.2s linear;
+    }
+
+    .sevenhover {
+        background-color: #ffd47d;
+        width: 180px;
+        height: 160px;
+        position: relative;
+        color: white;
+        opacity: 0;
+        cursor: pointer;
+        transition: all 0.2s linear;
+
+    }
+
+    .sevenhover:hover {
+        opacity: 1;
+        transition: all 0.2s linear;
+    }
+
+    .eighthover {
+        background-color: #ffbfae;
+        width: 180px;
+        height: 160px;
+        position: relative;
+        color: white;
+        opacity: 0;
+        cursor: pointer;
+        transition: all 0.2s linear;
+
+    }
+
+    .eighthover:hover {
+        opacity: 1;
+        transition: all 0.2s linear;
+    }
+
 }
 
 
