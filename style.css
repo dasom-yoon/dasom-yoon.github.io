@@ -163,7 +163,8 @@ header.major {
     left: 0px;
     top: 50px;
     background-image: url('images/box-01.jpg');
-    background-size: cover;
+    /*background-size: cover;*/
+    background-size: contain;
     background-repeat: no-repeat;
 }
 .one a{
