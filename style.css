@@ -171,7 +171,7 @@ header.major{
     position: absolute;
     left: 0px;
     top: 50px;
-    background-image: url('./images/box-01.jpg');
+    background-image: url('../images/box-01.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -473,7 +473,7 @@ header.major{
 .people {
     width: 120px;
     height: 40px;
-    background-image: url(people-1.svg);
+    background-image: url(images/people-1.svg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -481,7 +481,7 @@ header.major{
 .people2 {
     width: 120px;
     height: 40px;
-    background-image: url(people-2.svg);
+    background-image: url(images/people-2.svg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -489,7 +489,7 @@ header.major{
 .people3 {
     width: 120px;
     height: 40px;
-    background-image: url(people-3.svg);
+    background-image: url(images/people-3.svg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -547,7 +547,7 @@ header.major{
     width: 200px;
     height: 200px;
     float: left;
-    background-image: url(profile-dasom.svg);
+    background-image: url(images/profile-dasom.svg);
 }
 
 
