@@ -541,20 +541,54 @@ header.major{
 
 }
 
+.profiledetail {
+    width: 560px;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 70px;
 
+}
 
 .profile1 {
     width: 200px;
     height: 200px;
     float: left;
     background-image: url(images/profile-dasom.svg);
+    background-size: contain;
 }
 
 
 .profile2 {
-    width: 360px;
+    width: 310px;
     height: 200px;
     float: right;
     border-top: 7px solid #f0ece0;
     padding-top: 10px;
+
+}
+
+.profiletext {
+    font-family:'Lato', 'nanum gothic', sans-serif;
+    font-size: 12pt;
+    letter-spacing: ;
+    color: #545456;
+}
+
+
+
+.profiletext2 {
+    font-family: montserrat;
+    font-size: 10pt;
+    text-transform: uppercase;
+    color: #df98d5;
+    padding-top: 50px;
+}
+
+
+
+.profiletext3 {
+    font-family: montserrat;
+    font-size: 10pt;
+    color: #565656;
+    margin-left: 10px;
 }
