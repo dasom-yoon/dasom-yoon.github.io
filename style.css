@@ -1,4 +1,7 @@
 
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
 html,
 button,
 input,
@@ -107,7 +110,6 @@ textarea {
     *zoom: 1;
 }
 
-@import url(http://fonts.googleapis.com/css?family=Montserrat);
 
 header.major{
     padding-top: 50px;
@@ -120,7 +122,7 @@ header.major{
 }
 
 .major2 {
-    width: 560px;
+    width: 570px;
     display: inline-block;
 }
 
@@ -141,6 +143,7 @@ header.major{
     margin: 0 auto;
 }
 
+
 .logo{
     height: auto;
     display: inline-block;
@@ -152,7 +155,7 @@ header.major{
     width: 560px;
     height: 680px;
     margin: 0 auto;
-    display: inline-block;
+    display: block;
     padding-top: 50px;
     position: relative;
 }
@@ -262,17 +265,135 @@ header.major{
     transition: all 0.2s linear;
 }
 
-.title {
-    position: absolute;
-    top: 70px;
-    left: 20px;
+
+
+
+.twohover {
+    background-color: #ff9578;
+    width: 180px;
+    height: 180px;
+    position: relative;
+    color:white;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.2s linear;
+
 }
 
-.category {
-    position: absolute;
-    top: 90px;
-    left: 20px;
+.twohover:hover {
+    opacity: 1;
+    transition: all 0.2s linear;
 }
+
+
+
+
+.threehover {
+    background-color: #434b5b;
+    width: 180px;
+    height: 180px;
+    position: relative;
+    color:white;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.2s linear;
+
+}
+
+.threehover:hover {
+    opacity: 1;
+    transition: all 0.2s linear;
+}
+
+
+
+.fourhover {
+    background-color: #df98d5;
+    width: 180px;
+    height: 180px;
+    position: relative;
+    color:white;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.2s linear;
+
+}
+
+.fourhover:hover {
+    opacity: 1;
+    transition: all 0.2s linear;
+}
+
+
+.fivehover {
+    background-color: #e5d7c6;
+    width: 370px;
+    height: 140px;
+    position: relative;
+    color:white;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.2s linear;
+
+}
+
+.fivehover:hover {
+    opacity: 1;
+    transition: all 0.2s linear;
+}
+
+
+.sevenhover {
+    background-color: #ffd47d;
+    width: 180px;
+    height: 160px;
+    position: relative;
+    color:white;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.2s linear;
+
+}
+
+.sevenhover:hover {
+    opacity: 1;
+    transition: all 0.2s linear;
+}
+
+
+
+.eighthover {
+    background-color: #ffbfae;
+    width: 180px;
+    height: 160px;
+    position: relative;
+    color:white;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.2s linear;
+
+}
+
+.eighthover:hover {
+    opacity: 1;
+    transition: all 0.2s linear;
+}
+
+
+
+
+
+/*.title {*/
+    /*position: absolute;*/
+    /*top: 70px;*/
+    /*left: 20px;*/
+/*}*/
+
+/*.category {*/
+    /*position: absolute;*/
+    /*top: 90px;*/
+    /*left: 20px;*/
+/*}*/
 
 
 
@@ -298,6 +419,7 @@ header.major{
     width: 560px;
     height: 200px;
     margin: 0 auto;
+    padding-top: 70px;
 
 }
 
@@ -305,15 +427,15 @@ header.major{
     width: 160px;
     height: 200px;
     float: left;
-    border-top: 7px solid #434b5b;
-    padding-top: 20px;
+    border-top: 7px solid #545456;
+    padding-top: 10px;
 }
 
 .detail2 {
     width: 360px;
     height: 200px;
     float: right;
-    background-color: blue;
+    padding-top: 25px;
 }
 
 .works {
@@ -321,10 +443,15 @@ header.major{
     margin-left: auto;
     margin-right: auto;
     width: 560px;
-    height: 800px;
-    background-color: gray;
+    height: 600px;
+    background-color: #f7f7f7;
+
+}
 
 
+.end {
+    height: 100px;
+    margin: 0 auto;
 }
 
 .detailtitle {
@@ -350,4 +477,67 @@ header.major{
     background-image: url(people-1.svg);
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.people2 {
+    width: 120px;
+    height: 40px;
+    background-image: url(people-2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.people3 {
+    width: 120px;
+    height: 40px;
+    background-image: url(people-3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.detailtext {
+    font-family:'Lato', 'nanum gothic', sans-serif;
+    font-size: 7.5pt;
+    letter-spacing: -0.5;
+    color: #545456;
+    line-height: 190%;
+}
+
+
+.left {
+    position: fixed;
+    top: 50%;
+    left: 20px;
+}
+
+.right {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+}
+
+
+
+.x-align-middle {
+    display: inline-block;
+}
+
+.x-align-middle:before {
+    width: 0;
+    height: 100%;
+    content: '';
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: -0.25em;
+}
+
+.x-align-block {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.test {
+    padding-left: 20px;
+    line-height: 110%;
+
 }
