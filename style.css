@@ -118,7 +118,7 @@ header.major {
 }
 
 .major2 {
-    width: 450px;
+    width: 100%;
     display: inline-block;
 }
 
@@ -144,7 +144,7 @@ header.major {
 }
 
 .container {
-    width: 560px;
+    width: 100%;
     height: 680px;
     margin: 0 auto;
     display: block;
@@ -557,7 +557,7 @@ left: 20px;
     }
 
     .major2 {
-        width: 100%;
+        width: 570px;
         display: inline-block;
     }
 
