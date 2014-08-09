@@ -154,8 +154,8 @@ header.major {
 
 .box {
     width: 100%;
-    height: 450px;
-    background-color: gray;
+    min-height: 300px;
+    /*background-color: gray;*/
     display: inline-block;
 }
 
@@ -164,7 +164,7 @@ header.major {
     top: 50px;
     background-image: url('images/box-01.jpg');
     /*background-size: cover;*/
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .one a{
@@ -175,27 +175,24 @@ header.major {
     left: 190px;
     top: 50px;
     background-image: url('images/box-02.jpg');
-    background-size: cover;
-    background-repeat: inherit;
-    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .three {
     left: 380px;
     top: 50px;
     background-image: url('images/box-03.jpg');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
 }
 
 .four {
     left: 0px;
     top: 240px;
     background-image: url('images/box-04.jpg');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
 }
 
 .five {
@@ -204,9 +201,8 @@ header.major {
     /*width: 370px;*/
     /*height: 140px;*/
     background-image: url('images/box-05.jpg');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
 }
 
 /*.six {*/
@@ -224,9 +220,8 @@ header.major {
     top: 390px;
     /*height: 160px;*/
     background-image: url('images/box-07.jpg');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
 
 }
 
@@ -235,9 +230,8 @@ header.major {
     top: 390px;
     /*height: 160px;*/
     background-image: url('images/box-08.jpg');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
 }
 
 .onehover {
