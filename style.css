@@ -166,6 +166,7 @@ header.major {
     /*background-size: cover;*/
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .one a{
 
@@ -177,6 +178,7 @@ header.major {
     background-image: url('images/box-02.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .three {
@@ -185,6 +187,8 @@ header.major {
     background-image: url('images/box-03.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 .four {
@@ -193,6 +197,7 @@ header.major {
     background-image: url('images/box-04.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .five {
@@ -223,6 +228,7 @@ header.major {
     background-image: url('images/box-07.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 
 }
 
@@ -233,6 +239,7 @@ header.major {
     background-image: url('images/box-08.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .onehover {
