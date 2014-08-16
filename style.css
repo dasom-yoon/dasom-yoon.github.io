@@ -107,6 +107,10 @@ textarea {
     *zoom: 1;
 }
 
+a {
+    text-decoration: none;
+}
+
 header.major {
     padding-top: 20px;
     display: inline-block;
