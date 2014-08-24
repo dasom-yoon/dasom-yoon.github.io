@@ -1039,7 +1039,7 @@ div#img-resize img {
 
 
     .menu {
-        background-image: url:("images/menu.svg")
+
         transition: all 0.2s linear;
 
     }
@@ -1053,7 +1053,7 @@ div#img-resize img {
 
 
     .logo {
-        background-image: url:("images/logo.svg")
+
     transition: all 0.2s linear;
 
     }
@@ -1066,17 +1066,86 @@ div#img-resize img {
     }
 
     .profile {
-        background-image: url:("images/profile.svg")
+
     transition: all 0.2s linear;
 
     }
 
     .profile:hover {
         opacity: 0.5;
+        transition: all 0.2s linear; }
+
+
+
+
+
+
+
+    .mail {
+        opacity: 1;
+        transition: all 0.2s linear;
+    }
+
+
+
+    .mail:hover {
+        opacity: 0.5;
         transition: all 0.2s linear;
 
 
     }
+
+
+
+    .resume {
+        opacity: 1;
+        transition: all 0.2s linear;
+    }
+
+
+
+    .resume:hover {
+        opacity: 0.5;
+        transition: all 0.2s linear;
+
+
+    }
+
+
+
+
+
+
+    .left {
+
+        transition: all 0.2s linear;
+
+    }
+
+    .left:hover {
+        opacity: 0.5;
+        transition: all 0.2s linear;
+
+
+    }
+
+    .right {
+
+        transition: all 0.2s linear;
+
+    }
+
+    .right:hover {
+        opacity: 0.5;
+        transition: all 0.2s linear;
+
+
+    }
+
+
+
+
+
 
 
 
