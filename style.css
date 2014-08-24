@@ -599,7 +599,7 @@ div#img-resize img {
 }
 
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 36.5em) {
 
 
     /*body {*/
@@ -760,6 +760,8 @@ div#img-resize img {
         width: 560px;
         height: 50px;
         display: inline-block;
+        margin: 0 auto;
+
 
     }
 
