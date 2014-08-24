@@ -556,7 +556,7 @@ left: 20px;
     letter-spacing: -0.5;
     color: #545456;
     line-height: 180%;
-    height: 70px;
+
     display: block;
     text-align: justify;
 }
@@ -1022,8 +1022,8 @@ div#img-resize img {
         font-size: 7.5pt;
         letter-spacing: -0.5;
         color: #545456;
-        line-height: 150%;
-        height: 70px;
+        line-height: 200%;
+
         display: block;
         text-align: justify;
     }
@@ -1034,7 +1034,54 @@ div#img-resize img {
         height: 200px;
         margin: 0 auto;
         padding-top: 70px;
+
     }
+
+
+    .menu {
+        background-image: url:("images/menu.svg")
+        transition: all 0.2s linear;
+
+    }
+
+    .menu:hover {
+        opacity: 0.5;
+        transition: all 0.2s linear;
+
+
+    }
+
+
+    .logo {
+        background-image: url:("images/logo.svg")
+    transition: all 0.2s linear;
+
+    }
+
+    .logo:hover {
+        opacity: 0.5;
+        transition: all 0.2s linear;
+
+
+    }
+
+    .profile {
+        background-image: url:("images/profile.svg")
+    transition: all 0.2s linear;
+
+    }
+
+    .profile:hover {
+        opacity: 0.5;
+        transition: all 0.2s linear;
+
+
+    }
+
+
+
+
+
 
 
 
