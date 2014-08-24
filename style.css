@@ -129,6 +129,7 @@ header.major {
 .major2 {
     width: 100%;
     display: inline-block;
+    height: 80px;
 }
 
 .menu {
@@ -350,25 +351,32 @@ left: 20px;
     height: 160px;
     margin: 0 auto;
     padding-top: 20px;
+    background-color: #f4f4f4;
 }
 
 .detail1 {
-    width: 100%;
+    width: 200px;
     height: 130px;
     float: left;
-    border-top: 6px solid #545456;
-    padding-top: 7px;
+    /*border-top: 6px solid #545456;*/
+    background-color: #f4f4f4;
+    padding: 15px;
 }
 
 .detail2 {
     width: 360px;
     height: 100px;
     float: right;
-    padding-top: 25px;
+    padding: 20px;
+
+
 }
 
 .detail2_m {
-    width: 100%;
+    /*width: 100%;*/
+    background-color: #f4f4f4;
+    padding: 15px;
+
 
 }
 
@@ -451,7 +459,7 @@ left: 20px;
     letter-spacing: -0.5;
     color: #545456;
     line-height: 180%;
-    height: 70px;
+    /*height: 70px;*/
 
 
 }
@@ -628,6 +636,8 @@ div#img-resize img {
     }
 
 
+
+
     .one {
         left: 0px;
         top: 50px;
@@ -747,6 +757,7 @@ div#img-resize img {
 
     .major2 {
         width: 560px;
+        height: 50px;
         display: inline-block;
 
     }
@@ -967,6 +978,8 @@ div#img-resize img {
         height: 200px;
         margin: 0 auto;
         padding-top: 70px;
+        background-color: #ffffff;
+
     }
 
     .detail1 {
@@ -974,7 +987,8 @@ div#img-resize img {
         height: 130px;
         float: left;
         border-top: 7px solid #545456;
-        padding-top: 10px;
+        background-color: #ffffff;
+        padding: 10 0 0 0px;
     }
 
     .detail2 {
