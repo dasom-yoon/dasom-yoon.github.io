@@ -176,7 +176,7 @@ header.major {
     height: 680px;
     margin: 0 auto;
     display: block;
-    padding-top: 30px;
+    /*padding-top: 30px;*/
     position: relative;
     transition: all 0.2s linear;
 }
@@ -789,7 +789,7 @@ div#img-resize img {
         height: 800px;
         margin: 0 auto;
         display: block;
-        padding-top: 30px;
+        /*padding-top: 10px;*/
         position: relative;
     }
 
