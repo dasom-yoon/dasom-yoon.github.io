@@ -381,7 +381,7 @@ left: 20px;
 }
 
 .works {
-    margin-top: 10px;
+    /*margin-top: 10px;*/
     margin-left: auto;
     margin-right: auto;
     width: 560px;
@@ -922,7 +922,7 @@ div#img-resize img {
         width: 560px;
         height: 450px;
         margin: 0 auto;
-        padding-top: 70px;
+        padding-top: 30px;
 
     }
 
@@ -978,9 +978,9 @@ div#img-resize img {
 
     .details {
         width: 560px;
-        height: 200px;
+        height: 150px;
         margin: 0 auto;
-        padding-top: 70px;
+        padding-top: 40px;
         background-color: #ffffff;
 
     }
@@ -996,7 +996,7 @@ div#img-resize img {
 
     .detail2 {
         width: 360px;
-        height: 200px;
+        height: 150px;
         float: right;
         padding-top: 25px;
     }
@@ -1050,7 +1050,7 @@ div#img-resize img {
         width: 560px;
         height: 200px;
         margin: 0 auto;
-        padding-top: 70px;
+        padding-top: 60px;
 
     }
 
