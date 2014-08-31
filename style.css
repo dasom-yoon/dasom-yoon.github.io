@@ -640,7 +640,12 @@ div#img-resize img {
         height: 180px;
         position: absolute;
         min-height: 140px;
+
     }
+
+
+
+
 
 
 
@@ -692,6 +697,22 @@ div#img-resize img {
 
 
 
+    .six{ left: 0px;
+        top: 430px;
+        height: 140px;
+        background-image: url(images/box-06.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;}
+
+
+
+
+    }
+
+
+
+
     .seven {
         left: 190px;
         top: 390px;
@@ -713,42 +734,47 @@ div#img-resize img {
 
 
 
-    .six {
-        height: 140px;
 
-    }
-    .six {
-    left: 0px;
-    top: 430px;
-    height: 140px;
-    background-image: url(images/box-06.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    }
 
-    .nine {
+
+    .ten {
         left: 190px;
         top: 560px;
         width: 370px;
         height: 159px;
         background-color: mistyrose;
+        background-image: url(images/box-10.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
-    .ten {
+    .nine {
         left: 0px;
         top: 580px;
         height: 100px;
         background-color: #FFCCCC;
+        background-image: url(images/box-09.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
     .seven {
         height: 160px;
+        background-image: url(images/box-07.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
 
     }
 
     .eight {
         height: 160px;
+        background-image: url(images/box-08.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
 
@@ -887,6 +913,34 @@ div#img-resize img {
         transition: all 0.2s linear;
     }
 
+
+
+
+
+    .sixhover {
+        background-color: #eeeadf;
+        width: 180px;
+        height: 140px;
+        position: relative;
+        color: white;
+        opacity: 0;
+        cursor: pointer;
+        transition: all 0.2s linear;
+
+    }
+
+    .sixhover:hover {
+        opacity: 1;
+        transition: all 0.2s linear;
+
+
+    }
+
+
+
+
+
+
     .sevenhover {
         background-color: #ffd47d;
         width: 180px;
@@ -904,6 +958,11 @@ div#img-resize img {
         transition: all 0.2s linear;
     }
 
+
+
+
+
+
     .eighthover {
         background-color: #ffbfae;
         width: 180px;
@@ -919,9 +978,53 @@ div#img-resize img {
     .eighthover:hover {
         opacity: 1;
         transition: all 0.2s linear;
+    }
 
 
-       }
+
+
+
+    .ninehover {
+        background-color: #ffcccc;
+        width: 180px;
+        height: 140px;
+        position: relative;
+        color: white;
+        opacity: 0;
+        cursor: pointer;
+        transition: all 0.2s linear;
+
+    }
+
+    .ninehover:hover {
+        opacity: 1;
+        transition: all 0.2s linear;
+
+
+    }
+
+
+
+    .tenhover {
+        background-color: #ffe4e1;
+        width: 370px;
+        height: 159px;
+        position: relative;
+        color: white;
+        opacity: 0;
+        cursor: pointer;
+        transition: all 0.2s linear;
+
+    }
+
+    .tenhover:hover {
+        opacity: 1;
+        transition: all 0.2s linear;
+
+
+    }
+
+
 
 
 
