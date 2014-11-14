@@ -112,7 +112,7 @@ a {
 }
 
 
-p { text-align:justify; text-justify:inter-cluster; }
+p { text-align:justify; text-justify: inter-cluster; }
 
 
 
@@ -183,10 +183,14 @@ header.major {
 
 .box {
     width: 100%;
-    min-height: 300px;
+    min-height: 250px;
+
     /*background-color: gray;*/
     display: inline-block;
+
 }
+
+
 
 .one {
     left: 0px;
@@ -196,6 +200,8 @@ header.major {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
+
 }
 .one a{
 
@@ -374,18 +380,25 @@ background-position: center;
     height: 160px;
     margin: 0 auto;
     /*padding-top: 20px;*/
-    background-color: #f4f4f4;
+    /*background-color: #f4f4f4;*/
+
+
 
 
 }
+
+.detailline {
+    border-top: 3px solid #545456;
+}
+
 
 .detail1 {
     width: 200px;
     height: 130px;
     float: left;
-    /*border-top: 6px solid #545456;*/
-    background-color: #f4f4f4;
-    padding: 15px;
+    /*border-top: 3px solid #545456;*/
+    /*background-color: #f4f4f4;*/
+    padding: 15 0 0 0px;
 
 
 }
@@ -394,7 +407,7 @@ background-position: center;
     width: 360px;
     height: 100px;
     float: right;
-    padding: 20px;
+    /*padding: 10px;*/
 
 
 }
@@ -440,6 +453,7 @@ background-position: center;
     color: #545456;
 
 
+
 }
 
 .detailcategory {
@@ -482,7 +496,7 @@ background-position: center;
 
 .detailtext {
     font-family: 'Lato', 'nanum gothic', sans-serif;
-    font-size: 9.5pt;
+    font-size: 8pt;
     display: block;
     text-align: justify;
     letter-spacing: -0.5;
@@ -1039,7 +1053,7 @@ div#img-resize img {
         width: 305px;
         height: 150px;
         float: right;
-        border-top: 7px solid #f0ece0;
+        border-top: 3px solid #545456;
 
 
     }
@@ -1101,16 +1115,17 @@ div#img-resize img {
         width: 160px;
         height: 130px;
         float: left;
-        border-top: 7px solid #545456;
+        /*border-top: 4px solid #545456;*/
         background-color: #ffffff;
-        padding: 10 0 0 0px;
+        padding: 15 0 0 0px;
+
     }
 
     .detail2 {
         width: 360px;
         height: 150px;
         float: right;
-        padding-top: 25px;
+        padding-top: 15px;
     }
 
 
