@@ -839,6 +839,8 @@ div#img-resize img {
         display: inline-block;
     }
 
+
+
     .container {
         width: 560px;
         height: 800px;
@@ -1188,7 +1190,16 @@ div#img-resize img {
 
     }
 
-    .menu:hover {
+    /*.menu:hover {*/
+        /*opacity: 0.5;*/
+        /*transition: all 0.2s linear;*/
+
+
+    /*}*/
+
+
+
+    .logo:hover {
         opacity: 0.5;
         transition: all 0.2s linear;
 
@@ -1198,14 +1209,7 @@ div#img-resize img {
 
     .logo {
 
-        transition: all 0.2s linear;
-
-    }
-
-    .logo:hover {
-        opacity: 0.5;
-        transition: all 0.2s linear;
-
+        transition: all 0.4s linear;
 
     }
 
