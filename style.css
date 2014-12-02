@@ -142,6 +142,7 @@ header.major {
 
 .profile {
     display: inline-block;
+    text-align: center;
     /*width: 30px;*/
     /*height: 30px;*/
     /*float: right;*/
@@ -163,6 +164,7 @@ header.major {
 .logo {
     height: auto;
     display: inline-block;
+    text-align: center;
 }
 
 
@@ -838,7 +840,7 @@ div#img-resize img {
     .logo {
         height: auto;
         float: left;
-        display: inline-block;
+        /*display: inline-block;*/
     }
 
 
