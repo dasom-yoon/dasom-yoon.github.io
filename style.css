@@ -144,7 +144,7 @@ header.major {
     display: inline-block;
     /*width: 30px;*/
     /*height: 30px;*/
-    float: right;
+    /*float: right;*/
     margin: 0 auto;
 }
 
@@ -176,9 +176,10 @@ header.major {
     height: 680px;
     margin: 0 auto;
     display: block;
-    /*padding-top: 30px;*/
+    padding-top: 20px;
     position: relative;
     transition: all 0.2s linear;
+
 }
 
 .box {
@@ -424,7 +425,7 @@ background-position: center;
     /*margin-top: 10px;*/
     margin-left: auto;
     margin-right: auto;
-    width: 560px;
+    width: 600px;
     /*height: 100%;*/
 
 
@@ -809,7 +810,7 @@ div#img-resize img {
     }
 
     .major2 {
-        width: 560px;
+        width: 600px;
         height: 50px;
         display: inline-block;
         margin: 0 auto;
@@ -827,10 +828,11 @@ div#img-resize img {
 
     .profile {
         display: inline-block;
-        width: 30px;
+        width: 180px;
         height: 30px;
         float: right;
         margin: 0 auto;
+        padding-top:18px;
     }
 
     .logo {
@@ -842,7 +844,7 @@ div#img-resize img {
 
 
     .container {
-        width: 560px;
+        width: 600px;
         height: 800px;
         margin: 0 auto;
         display: block;
@@ -1160,7 +1162,7 @@ div#img-resize img {
 
     div#img-resize img {
         display:block;
-        width:560px;
+        width:600px;
     }
 
     .detailtext2 {
